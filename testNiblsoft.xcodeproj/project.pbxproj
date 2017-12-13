@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B16BCD01FE17454001D1E6C /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BCCF1FE17454001D1E6C /* InfoTableViewController.swift */; };
+		1B16BCD21FE17491001D1E6C /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BCD11FE17491001D1E6C /* InfoTableViewCell.swift */; };
+		1B16BCD41FE18541001D1E6C /* HistoryDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16BCD31FE18541001D1E6C /* HistoryDataViewController.swift */; };
 		1B2483351FDFC99900FBEF75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2483341FDFC99900FBEF75 /* AppDelegate.swift */; };
-		1B2483371FDFC99900FBEF75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2483361FDFC99900FBEF75 /* ViewController.swift */; };
+		1B2483371FDFC99900FBEF75 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2483361FDFC99900FBEF75 /* MapViewController.swift */; };
 		1B24833A1FDFC99900FBEF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2483381FDFC99900FBEF75 /* Main.storyboard */; };
 		1B24833D1FDFC99900FBEF75 /* testNiblsoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B24833B1FDFC99900FBEF75 /* testNiblsoft.xcdatamodeld */; };
 		1B24833F1FDFC99900FBEF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B24833E1FDFC99900FBEF75 /* Assets.xcassets */; };
 		1B2483421FDFC99900FBEF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2483401FDFC99900FBEF75 /* LaunchScreen.storyboard */; };
+		1B488CEB1FE0751D00A7B299 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488CEA1FE0751D00A7B299 /* NetworkService.swift */; };
+		1B488CED1FE0753E00A7B299 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488CEC1FE0753E00A7B299 /* Weather.swift */; };
+		1B488CEF1FE082AD00A7B299 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B488CEE1FE082AD00A7B299 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B16BCCF1FE17454001D1E6C /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		1B16BCD11FE17491001D1E6C /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		1B16BCD31FE18541001D1E6C /* HistoryDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataViewController.swift; sourceTree = "<group>"; };
 		1B2483311FDFC99900FBEF75 /* testNiblsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNiblsoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2483341FDFC99900FBEF75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B2483361FDFC99900FBEF75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B2483361FDFC99900FBEF75 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1B2483391FDFC99900FBEF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B24833C1FDFC99900FBEF75 /* testNiblsoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testNiblsoft.xcdatamodel; sourceTree = "<group>"; };
 		1B24833E1FDFC99900FBEF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B2483411FDFC99900FBEF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B2483431FDFC99900FBEF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B488CEA1FE0751D00A7B299 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1B488CEC1FE0753E00A7B299 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1B488CEE1FE082AD00A7B299 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B16BCD51FE1A39E001D1E6C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1B16BCD81FE1A3C8001D1E6C /* Model */,
+				1B16BCD71FE1A3BB001D1E6C /* View */,
+				1B16BCD61FE1A3AE001D1E6C /* Controller */,
+				1B16BCD91FE1A3DD001D1E6C /* NetworkService */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B16BCD61FE1A3AE001D1E6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B2483341FDFC99900FBEF75 /* AppDelegate.swift */,
+				1B2483361FDFC99900FBEF75 /* MapViewController.swift */,
+				1B16BCCF1FE17454001D1E6C /* InfoTableViewController.swift */,
+				1B16BCD31FE18541001D1E6C /* HistoryDataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B16BCD71FE1A3BB001D1E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B2483401FDFC99900FBEF75 /* LaunchScreen.storyboard */,
+				1B2483381FDFC99900FBEF75 /* Main.storyboard */,
+				1B16BCD11FE17491001D1E6C /* InfoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B16BCD81FE1A3C8001D1E6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B488CEE1FE082AD00A7B299 /* Constants.swift */,
+				1B488CEC1FE0753E00A7B299 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B16BCD91FE1A3DD001D1E6C /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1B488CEA1FE0751D00A7B299 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		1B16BCDA1FE1A462001D1E6C /* Supporting file */ = {
+			isa = PBXGroup;
+			children = (
+				1B24833E1FDFC99900FBEF75 /* Assets.xcassets */,
+				1B2483431FDFC99900FBEF75 /* Info.plist */,
+				1B24833B1FDFC99900FBEF75 /* testNiblsoft.xcdatamodeld */,
+			);
+			path = "Supporting file";
+			sourceTree = "<group>";
+		};
 		1B2483281FDFC99900FBEF75 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +127,8 @@
 		1B2483331FDFC99900FBEF75 /* testNiblsoft */ = {
 			isa = PBXGroup;
 			children = (
-				1B2483341FDFC99900FBEF75 /* AppDelegate.swift */,
-				1B2483361FDFC99900FBEF75 /* ViewController.swift */,
-				1B2483381FDFC99900FBEF75 /* Main.storyboard */,
-				1B24833E1FDFC99900FBEF75 /* Assets.xcassets */,
-				1B2483401FDFC99900FBEF75 /* LaunchScreen.storyboard */,
-				1B2483431FDFC99900FBEF75 /* Info.plist */,
-				1B24833B1FDFC99900FBEF75 /* testNiblsoft.xcdatamodeld */,
+				1B16BCD51FE1A39E001D1E6C /* Application */,
+				1B16BCDA1FE1A462001D1E6C /* Supporting file */,
 			);
 			path = testNiblsoft;
 			sourceTree = "<group>";
@@ -139,9 +205,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2483371FDFC99900FBEF75 /* ViewController.swift in Sources */,
+				1B16BCD01FE17454001D1E6C /* InfoTableViewController.swift in Sources */,
+				1B16BCD21FE17491001D1E6C /* InfoTableViewCell.swift in Sources */,
+				1B2483371FDFC99900FBEF75 /* MapViewController.swift in Sources */,
 				1B2483351FDFC99900FBEF75 /* AppDelegate.swift in Sources */,
+				1B488CEB1FE0751D00A7B299 /* NetworkService.swift in Sources */,
 				1B24833D1FDFC99900FBEF75 /* testNiblsoft.xcdatamodeld in Sources */,
+				1B16BCD41FE18541001D1E6C /* HistoryDataViewController.swift in Sources */,
+				1B488CED1FE0753E00A7B299 /* Weather.swift in Sources */,
+				1B488CEF1FE082AD00A7B299 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +352,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35Z3V435NR;
-				INFOPLIST_FILE = testNiblsoft/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testNiblsoft/Supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruslan-rudenya-mail.ru.testNiblsoft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +368,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35Z3V435NR;
-				INFOPLIST_FILE = testNiblsoft/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testNiblsoft/Supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruslan-rudenya-mail.ru.testNiblsoft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
